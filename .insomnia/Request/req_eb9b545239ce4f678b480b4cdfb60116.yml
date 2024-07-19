@@ -1,0 +1,30 @@
+_id: req_eb9b545239ce4f678b480b4cdfb60116
+type: Request
+parentId: fld_c323866d66434baeb5fdc98fb2866112
+modified: 1721393943547
+created: 1721393872988
+url: "{{ _.Spin_EndPoint_IP_Port }}{{ _.SpinModule }}{{ _.Version
+  }}HTTP_WheelSegment/wheelSegment1/"
+name: Delete WheelSegment
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.Token_Access }}"
+metaSortKey: -1721380203785
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
