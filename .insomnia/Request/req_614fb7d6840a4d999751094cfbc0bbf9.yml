@@ -1,7 +1,7 @@
 _id: req_614fb7d6840a4d999751094cfbc0bbf9
 type: Request
 parentId: fld_5ff584d0259e4543941a807c55a15c99
-modified: 1721378986619
+modified: 1721380591730
 created: 1721378474275
 url: "{{ _.EndPoint_IP_Port }}{{ _.Module }}{{ _.Version }}HTTP_Login/"
 name: Login
@@ -12,12 +12,25 @@ parameters: []
 headers:
   - name: User-Agent
     value: Insomnia/2023.5.6
+    id: pair_60f4ba27516348828020f8fa7239aac3
+  - id: pair_98a7ab9b19e54865aa8db675263c21a4
+    name: DeviceId
+    value: asdawdasd
+    description: ""
+  - id: pair_63d36292e07941aa93890832775293bf
+    name: DeviceName
+    value: MY-pc
+    description: ""
+  - id: pair_78ab18892717410485a99f8d432df1d2
+    name: DeviceType
+    value: desktop
+    description: ""
 authentication:
   type: basic
   useISO88591: false
   disabled: false
-  username: rbadadoui@africell.com
-  password: ""
+  username: rbadaoui@africell.com
+  password: R@bih@12@12
 metaSortKey: -1721378474275
 isPrivate: false
 settingStoreCookies: true
