@@ -1,26 +1,16 @@
-_id: req_93463dcc7c9f4a108d91b9383f65e418
+_id: req_64088c7f47494c4e8964f815846a1963
 type: Request
-parentId: fld_c323866d66434baeb5fdc98fb2866112
-modified: 1721394107473
-created: 1721393508089
+parentId: fld_a84bc83ee6af41e79ee44d494579f4a7
+modified: 1721394461723
+created: 1721394089093
 url: "{{ _.Spin_EndPoint_IP_Port }}{{ _.SpinModule }}{{ _.Version
-  }}HTTP_WheelSegment/"
-name: update WheelSegment
+  }}HTTP_Wheel/wheel1/"
+name: Delete WheelSegment
 description: ""
-method: PUT
+method: DELETE
 body:
   mimeType: application/json
-  text: |-
-    {
-    	"Key": "wheelSegment1",
-    	"WheelSegment_Id": 3,
-    	"Description": "Desc update",
-    	"Title": "wheel Segment 1 ",
-    	"BackgroundColor": "#4287f5",
-    	"FontColor": "#bcc4d1",
-    	"SegmentPicture_b64": "",
-    	"PrizeKey": ""
-    }
+  text: ""
 parameters: []
 headers:
   - name: Content-Type
@@ -30,7 +20,7 @@ headers:
 authentication:
   type: bearer
   token: "{{ _.Token_Access }}"
-metaSortKey: -1721381933295
+metaSortKey: -1721380203785
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

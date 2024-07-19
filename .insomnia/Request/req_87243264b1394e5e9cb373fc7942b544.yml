@@ -1,0 +1,40 @@
+_id: req_87243264b1394e5e9cb373fc7942b544
+type: Request
+parentId: fld_a84bc83ee6af41e79ee44d494579f4a7
+modified: 1721394425806
+created: 1721394089087
+url: "{{ _.Spin_EndPoint_IP_Port }}{{ _.SpinModule }}{{ _.Version }}HTTP_Wheel/"
+name: Create Wheel
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"Key": "wheel1",
+    	"Description": "Desc",
+    	"Title": "wheel Segment 1 ",
+    	"BackgroundPicture_b64": "",
+    	"ArrowPicture_b64":"",
+    	"SpinButtonPicture_b64":"",
+    	"SpinButtonLabel": "Spin",
+    	"SpinDuration": 10,
+    	"Wheel_Segments":["wheelSegment1"]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.Token_Access }}"
+metaSortKey: -1721385392315
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

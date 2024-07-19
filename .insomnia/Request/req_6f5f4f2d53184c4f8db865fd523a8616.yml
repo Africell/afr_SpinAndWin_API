@@ -1,0 +1,25 @@
+_id: req_6f5f4f2d53184c4f8db865fd523a8616
+type: Request
+parentId: fld_a84bc83ee6af41e79ee44d494579f4a7
+modified: 1721394135978
+created: 1721394089085
+url: "{{ _.Spin_EndPoint_IP_Port }}{{ _.SpinModule }}{{ _.Version }}HTTP_Wheel/"
+name: GET Wheel
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.Token_Access }}"
+metaSortKey: -1721392310355
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
