@@ -1,0 +1,23 @@
+_id: req_614fb7d6840a4d999751094cfbc0bbf9
+type: Request
+parentId: fld_5ff584d0259e4543941a807c55a15c99
+modified: 1721378478111
+created: 1721378474275
+url: https://okapihr.africell.ao/OutletAUC/{{ _.Module }}{{ _.Version }}HTTP_Login/
+name: New Request
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication: {}
+metaSortKey: -1721378474275
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
