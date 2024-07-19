@@ -1,9 +1,10 @@
 _id: req_f82aa473916b4ade81b77b56bae7184e
 type: Request
 parentId: fld_c323866d66434baeb5fdc98fb2866112
-modified: 1721392376925
+modified: 1721392762315
 created: 1721392310355
-url: "{{ _.EndPoint_IP_Port }}{{ _.Module }}{{ _.Version }}HTTP_WheelSegment/"
+url: "{{ _.Spin_EndPoint_IP_Port }}{{ _.SpinModule }}{{ _.Version
+  }}HTTP_WheelSegment/"
 name: GET WheelSegment
 description: ""
 method: GET
@@ -12,7 +13,9 @@ parameters: []
 headers:
   - name: User-Agent
     value: Insomnia/2023.5.6
-authentication: {}
+authentication:
+  type: bearer
+  token: "{{ _.Token_Access }}"
 metaSortKey: -1721392310355
 isPrivate: false
 settingStoreCookies: true
