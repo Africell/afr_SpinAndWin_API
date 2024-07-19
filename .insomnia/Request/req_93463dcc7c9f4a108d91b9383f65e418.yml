@@ -1,0 +1,40 @@
+_id: req_93463dcc7c9f4a108d91b9383f65e418
+type: Request
+parentId: fld_c323866d66434baeb5fdc98fb2866112
+modified: 1721393774559
+created: 1721393508089
+url: "{{ _.Spin_EndPoint_IP_Port }}{{ _.SpinModule }}{{ _.Version
+  }}HTTP_WheelSegment/"
+name: update WheelSegment
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"Key": "wheelSegment1",
+    	"WheelSegment_Id": 2,
+    	"Description": "Desc update",
+    	"Title": "wheel Segment 1 ",
+    	"BackgroundColor": "#4287f5",
+    	"FontColor": "#bcc4d1",
+    	"SegmentPicture_b64": "",
+    	"PrizeKey": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.Token_Access }}"
+metaSortKey: -1721381933295
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

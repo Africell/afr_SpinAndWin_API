@@ -1,0 +1,39 @@
+_id: req_57e8d393c86945b1968565a125a3186b
+type: Request
+parentId: fld_c323866d66434baeb5fdc98fb2866112
+modified: 1721393467235
+created: 1721392897211
+url: "{{ _.Spin_EndPoint_IP_Port }}{{ _.SpinModule }}{{ _.Version
+  }}HTTP_WheelSegment/"
+name: Create WheelSegment
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"Key": "wheelSegment1",
+    	"Description": "Desc",
+    	"Title": "wheel Segment 1 ",
+    	"BackgroundColor": "#4287f5",
+    	"FontColor": "#bcc4d1",
+    	"SegmentPicture_b64": "",
+    	"PrizeKey": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: Insomnia/2023.5.6
+authentication:
+  type: bearer
+  token: "{{ _.Token_Access }}"
+metaSortKey: -1721385392315
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
