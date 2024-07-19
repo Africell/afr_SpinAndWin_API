@@ -1,7 +1,7 @@
 _id: req_614fb7d6840a4d999751094cfbc0bbf9
 type: Request
 parentId: fld_5ff584d0259e4543941a807c55a15c99
-modified: 1721381799830
+modified: 1721381925206
 created: 1721378474275
 url: "{{ _.EndPoint_IP_Port }}{{ _.Module }}{{ _.Version }}HTTP_Login/"
 name: Login
@@ -15,7 +15,7 @@ headers:
     id: pair_60f4ba27516348828020f8fa7239aac3
   - id: pair_98a7ab9b19e54865aa8db675263c21a4
     name: DeviceId
-    value: asdawdasd
+    value: asdawdasdww
     description: ""
   - id: pair_63d36292e07941aa93890832775293bf
     name: DeviceName
@@ -29,8 +29,8 @@ authentication:
   type: basic
   useISO88591: false
   disabled: false
-  username: rbadauoi@africell.com
-  password: Passssw0rd
+  username: rbadaoui@africell.com
+  password: R@bih@12@12
 metaSortKey: -1721378474275
 isPrivate: false
 settingStoreCookies: true
